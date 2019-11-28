@@ -1,4 +1,10 @@
-import { createElement, createTextElement } from "./";
+import Meact, { createElement, createTextElement } from "./";
+
+describe("Me!act", () => {
+  test("has createElement function", () => {
+    expect(Meact.createElement).toEqual(createElement)
+  })
+})
 
 describe("createElement", () => {
   test("only one argument", () => {

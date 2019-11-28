@@ -1,3 +1,9 @@
+const Meact = {
+  createElement
+}
+
+export default Meact;
+
 export function createElement(type: string, props?: any, ...children: any[]) {
   return {
     type,
